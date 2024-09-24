@@ -427,6 +427,7 @@ export class CameraController_ {
 }
 
 //--------------------------------------------------------------------------
+export const ANIMATION_UUID = "a7a62caf-5d66-4318-9057-0270f9dcdfdb";
 export const SPOTLIGHT_EUID = "5f0cf797-d27a-4f53-91b3-de21758050dd";
 export const DOOR_GUID = "02a5zYLwD3j9mC$YV6woIu";
 export const DOOR_EUID = guid2euid(DOOR_GUID);

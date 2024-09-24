@@ -29,7 +29,7 @@ npm install
 npm run dev
 ```
 
-This should open your browser. If it's not, open your browser and use http://localhost:3000/.
+This should open your browser. If it's not, open your browser and use http://localhost:3000/demo-ifc-next.
 
 ## Getting started with your own IFC file(s)
 
@@ -101,4 +101,4 @@ npm install
 npm run dev
 ```
 
-This should open your browser. If it's not, open your browser and use http://localhost:3000/.
+This should open your browser. If it's not, open your browser and use http://localhost:3000/demo-ifc-next.

@@ -3,14 +3,13 @@ import { useState } from "react";
 import { Button } from "@chakra-ui/react";
 
 //------------------------------------------------------------------------------
-import { runAnimation, pauseAnimation, stopAnimation } from "@/lib/3dverse/helpers";
+import { runAnimation, pauseAnimation, stopAnimation, ANIMATION_UUID } from "@/lib/3dverse/helpers";
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
 export const ControlAnimation = () => {
     //------------------------------------------------------------------------------
     const [isAnimationPlaying, setAnimationPlaying] = useState(false);
-    const ANIMATION_UUID = "a7a62caf-5d66-4318-9057-0270f9dcdfdb";
 
     //------------------------------------------------------------------------------
     const toggleAnimation = () => {
