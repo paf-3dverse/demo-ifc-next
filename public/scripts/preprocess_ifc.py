@@ -4,6 +4,8 @@ import shutil
 import random
 import json
 
+from ifcopenshell.util.element import get_psets
+
 
 def getChildrenOfType(ifcParentElement, ifcType):
     items = []
@@ -55,7 +57,7 @@ for fn in os.listdir(ifc_folder):
             e_json = {}
             e_json["props"] = e.get_info(recursive=False)
 
-            e_json["psets"] = ifcopenshell.util.element.get_psets(
+            e_json["psets"] = get_psets(
                 e, psets_only=True)
 
             if e.is_a() == "IfcBuildingStorey":

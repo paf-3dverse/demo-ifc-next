@@ -90,6 +90,9 @@ export async function toggleEnergyView(activate: boolean) {
     };
 
     const originalMat = {
+        constantsJson: {
+            MATERIAL_UNTEXTURED: true
+        },
         dataJson: {
             albedo: [0, 0.5686274509803921, 0.788235294117647],
             metallic: 1,
@@ -98,8 +101,7 @@ export async function toggleEnergyView(activate: boolean) {
         },
         isDoubleSided: true,
         name: "Interior Fill",
-        shaderRef: "6d7d6861-0938-41db-9fc2-187e09504c96",
-        skinnedShaderRef: "baa040d3-4e11-4bbf-b932-5c7782d2dcc4",
+        shaderRef: "a740058e-27a0-48e3-af37-70ae93cc0b67",
         uuid: "18803c48-b14f-4fc2-b0ce-ed72b2776c77",
         version: 1,
     };
